@@ -1,5 +1,5 @@
-/*CORREGIR TODO ESTE QUILOMBO*/
 
+/*TODO: Cambiar a colores mas o menos coherentes con el background*/
 body{
     background-image: url("recursos_imgs/fondo_gatitos.jpg");
 }
@@ -38,3 +38,26 @@ body{
     width: 60%;
     padding: 10px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    padding: 20px;
+  }
+  .form_contacto{
+    width: 30%;
+    height: 30%;
+    background-color: rgba(0, 175, 206, 0.815);
+    max-width: 178px;
+  }
+
