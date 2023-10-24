@@ -14,12 +14,14 @@ body{
     width: 60%;
     border: 3px;
     padding: 10px;
+    border-radius: 20px;
 }
 .top_bar_link{
     width: 300px;
     height: 70px;
     background-color: #0000EE;
     text-align: center;
+    border-radius: 20px;
     
 }
 
@@ -37,6 +39,7 @@ body{
     margin: auto;
     width: 60%;
     padding: 10px;
+    border-radius: 20px;
 }
 
 ul {
@@ -58,8 +61,10 @@ li a {
 .form_contacto{
     width: 30%;
     height: 30%;
-    background-color: rgba(0, 175, 206, 0.815);
+    background-color: rgba(0, 175, 206, 0.758);
     max-width: 178px;
+    border-radius: 20px;
+    padding: 10px;
   }
 
 .div_center{
@@ -75,7 +80,20 @@ li a {
   margin-right: 400px;
   padding: 5px;
   border-style: double;
-  border-color: #0000EE;
+  border-radius: 20px;
+  border-color: #0093ee;
 }
 
+.main_div_texto{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 800px;
+  width: 1000px;
+  background-color: #48cce6dc;
+  margin-left: 440px;
+  margin-right: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  padding: 10px;
+}
 
