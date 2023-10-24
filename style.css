@@ -46,18 +46,36 @@ ul {
     overflow: hidden;
   }
   
-  li {
+li {
     float: right;
   }
 
-  li a {
+li a {
     display: block;
     padding: 20px;
   }
-  .form_contacto{
+
+.form_contacto{
     width: 30%;
     height: 30%;
     background-color: rgba(0, 175, 206, 0.815);
     max-width: 178px;
   }
+
+.div_center{
+  text-align: center;
+
+}
+
+.video{
+  background-color: #14148b;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 5px;
+  border-style: double;
+  border-color: #0000EE;
+}
+
 
