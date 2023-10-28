@@ -2,6 +2,7 @@
 /*TODO: Cambiar a colores mas o menos coherentes con el background*/
 body{
     background-image: url("recursos_imgs/fondo_gatitos.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .top_bar{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,11 +33,12 @@ body{
     font-family: "Noto Sans",Sans-Serif;
     align-content: center;
 }
-
+/*Clase importante!*/
 .main_content_div{
     height: 600px;
     background-color: #1E4977;
     margin: auto;
+    margin-bottom: 50px;
     width: 60%;
     padding: 10px;
     border-radius: 20px;
@@ -97,3 +99,27 @@ li a {
   padding: 10px;
 }
 
+.div_imagenes {
+  height: 600px;
+  width: 1500px;
+  background-color: #1E4977;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+}
+.mini_div{
+  text-align: center;
+margin: auto;
+  background-color: #4495f2;
+  border-radius: 10px;
+}
+
+.imagenes_flex img{
+  max-width: 100%;
+  border-radius: 10px;
+  flex: 1;
+  margin-top: 100px;
+  margin-right: 5px;
+}
