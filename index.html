@@ -27,22 +27,30 @@
                 </div>
             </header>
             <!--Formulario de contacto-->
-            <div class="form_contacto">
-                <form action="">
+            <div class="form_contacto" id="frm">
+                <form name= "form_contacto"  onsubmit="return validarFormulario()">
+
                     <label for="mail">Mail</label>
-                    <input type="text" id="mail">
+                    <input type="text " class="inputs" id="mail" name="mail"> 
+                    <span class="error" id="errorMail"></span> 
+
                     <label for="mensaje">Nombre</label>
-                    <input type="mensaje" id="mensaje">
+                    <input type="mensaje" class="inputs" id="mensaje" name="nombre"> 
+                    <span class="error" id="errorNombre"></span>
+
                     <label for="mandar_mails">Suscribirse a noticias</label>
-                    <input type="checkbox">
-                    <button type="button">
+                    <input type="checkbox" class="inputs">
+                    <button type="submit">
                         <label for="enviar" id="enviar">Enviar</label>
-                    </button>
+                    </button> <br>
+                    <span class="error" id="errorEnviar"></span> 
                 </form>
             </div>
 
             <div class="main_content_div">
-
+                <h1 style="text-align: center;">
+                    Carrousel de gatos :D
+                </h1>
             </div>
             <div class="mini_div">
                 <h1>
@@ -61,6 +69,6 @@
             </div>
         </div>
         </div>
-        
+        <script src="script.js"></script>
     </body>
 </html>
