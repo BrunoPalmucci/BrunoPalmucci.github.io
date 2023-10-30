@@ -31,7 +31,7 @@ function validarFormulario() {
 
         tiene_error = true
     }else if (/\d/.test(nombre) || !/^[A-Za-z]+$/.test(nombre)) {
-        document.getElementById("errorNombre").innerHTML = "Su nombre solo puede contener letras y no debe tener números ni otros caracteres"
+        document.getElementById("errorNombre").innerHTML = "Su nombre de usuario solo puede contener letras y no debe tener números ni otros caracteres"
 
         tiene_error = true
     }else document.getElementById("errorNombre").innerHTML = ""

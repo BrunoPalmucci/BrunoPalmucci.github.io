@@ -99,6 +99,10 @@ li a {
   padding: 10px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .div_imagenes {
   height: 600px;
   width: 1500px;
@@ -174,5 +178,24 @@ margin: auto;
 
 .flecha_der:hover{
   cursor: pointer;
+}
+
+.contenedor{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagenes_imag{
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  width: 160px;
+}
+
+.imagenes_imag img{
+  border-radius: 10px;
 }
 
