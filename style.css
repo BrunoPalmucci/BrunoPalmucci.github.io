@@ -186,16 +186,23 @@ margin: auto;
   justify-content: center;
 }
 
-.imagenes_imag{
+.row {
+  display: flex;
   margin: auto;
-  margin-top: 200px;
   display: flex;
   justify-content: center;
   height: 160px;
   width: 160px;
+  flex-direction: row;
 }
 
-.imagenes_imag img{
-  border-radius: 10px;
+.column {
+  flex: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  width: 160px;
+  flex-direction: row;
 }
 
